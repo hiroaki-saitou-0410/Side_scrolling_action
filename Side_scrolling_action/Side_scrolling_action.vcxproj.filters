@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\Manager">
+      <UniqueIdentifier>{56749c84-7389-4671-a8c9-2bc07f3c6ec8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene">
+      <UniqueIdentifier>{f47d56dd-a3d3-4dec-bbba-f55cedc2e8b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Character">
+      <UniqueIdentifier>{1771c0de-2fa5-44f7-904f-8051bb0d3186}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Character\Player">
+      <UniqueIdentifier>{c2dd444a-2c77-4180-a659-7de6ae2db1af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Character\Enemies">
+      <UniqueIdentifier>{f6dab917-aece-4484-897d-98e606e7c733}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Character\Collision">
+      <UniqueIdentifier>{74306b5c-1e15-457e-b87c-0836ab2d9cb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Character\Ability">
+      <UniqueIdentifier>{f701dfe1-1d2a-4880-8792-8588b48827a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\UI">
+      <UniqueIdentifier>{43feac22-4ecc-4111-8c13-418b669c818a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\WinMain.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Manager\InputManager.cpp">
+      <Filter>ソース ファイル\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Manager\SceneManager.cpp">
+      <Filter>ソース ファイル\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Scene\TitleScene.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Scene\GameScene.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Scene\ResultScene.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Manager\CursorManager.cpp">
+      <Filter>ソース ファイル\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Character\Player\Player.cpp">
+      <Filter>ソース ファイル\Character\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Manager\EnemyManager.cpp">
+      <Filter>ソース ファイル\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Character\Enemies\Flier.cpp">
+      <Filter>ソース ファイル\Character\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Character\Enemies\Runner.cpp">
+      <Filter>ソース ファイル\Character\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Character\Player\Bullet.cpp">
+      <Filter>ソース ファイル\Character\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Character\Ability\HeavyBomb.cpp">
+      <Filter>ソース ファイル\Character\Ability</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Character\Collision\Collision.cpp">
+      <Filter>ソース ファイル\Character\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Manager\AbilityManager.cpp">
+      <Filter>ソース ファイル\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Character\Ability\Bombardment.cpp">
+      <Filter>ソース ファイル\Character\Ability</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Manager\TextureManager.cpp">
+      <Filter>ソース ファイル\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Manager\UIManager.cpp">
+      <Filter>ソース ファイル\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\UI\TitleUI.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\UI\GameUI.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\UI\ResultUI.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\Manager\InputManager.h">
+      <Filter>ソース ファイル\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Manager\SceneManager.h">
+      <Filter>ソース ファイル\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Scene\SceneBase.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Scene\TitleScene.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Singleton.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Scene\GameScene.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Definition.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Scene\ResultScene.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Manager\CursorManager.h">
+      <Filter>ソース ファイル\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Character\Player\Player.h">
+      <Filter>ソース ファイル\Character\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Character\CharacterBase.h">
+      <Filter>ソース ファイル\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Manager\EnemyManager.h">
+      <Filter>ソース ファイル\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Character\Enemies\Flier.h">
+      <Filter>ソース ファイル\Character\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Character\Enemies\Runner.h">
+      <Filter>ソース ファイル\Character\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Character\Player\Bullet.h">
+      <Filter>ソース ファイル\Character\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Character\Collision\Collision.h">
+      <Filter>ソース ファイル\Character\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Character\Ability\HeavyBomb.h">
+      <Filter>ソース ファイル\Character\Ability</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Character\CharaDefinition.h">
+      <Filter>ソース ファイル\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Vector2.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Manager\AbilityManager.h">
+      <Filter>ソース ファイル\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Character\Ability\Bombardment.h">
+      <Filter>ソース ファイル\Character\Ability</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Manager\TextureManager.h">
+      <Filter>ソース ファイル\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Manager\UIManager.h">
+      <Filter>ソース ファイル\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\UI\UIBase.h">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\UI\TitleUI.h">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\UI\GameUI.h">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\UI\ResultUI.h">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

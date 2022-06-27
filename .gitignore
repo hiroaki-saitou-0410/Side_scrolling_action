@@ -1,0 +1,5 @@
+*.ipch
+*.db
+*.suo
+Side_scrolling_action/Debug/
+Side_scrolling_action/Log.txt
